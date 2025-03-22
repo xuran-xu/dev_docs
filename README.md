@@ -1,95 +1,105 @@
-## AriaDocs - Documentation Template
+# HashKey Chain Documentation
 
-This feature-packed documentation template, built with Next.js, offers a sleek and responsive design, perfect for all your project documentation needs.
+This repository contains the official documentation for HashKey Chain. We welcome contributions from the community to help improve and expand our documentation.
 
-<img src="./public/public-og.png" />
+## Contributing to the Documentation
 
-<br/>
+We appreciate your interest in contributing to the HashKey Chain documentation. By following these guidelines, you can help us maintain high-quality, consistent documentation.
 
-Here are all versions of the AriaDocs template, each crafted for specific use cases:
+### Prerequisites
 
+Before you start contributing, ensure you have:
 
-- **Advanced Docs:** A comprehensive template offering extensive features for in-depth documentation needs. Perfect for larger projects that require detailed explanations and advanced configurations.  
-  [Explore the Advanced Docs](https://github.com/nisabmohd/Aria-Docs/tree/master)
+- A GitHub account
+- Git installed on your local machine
+- Node.js (version 16 or higher) and npm installed
+- Basic knowledge of Markdown and MDX
 
-- **Lite Version:** A streamlined, no-frills template perfect for straightforward documentation needs.  
-  [Explore the Lite Version](https://github.com/nisabmohd/Aria-Docs/tree/minimal-docs)
+### Setting Up the Development Environment
 
-- **Version with Versioning:** A powerful option for projects that require historical documentation tracking. Manage multiple versions of your docs effortlessly.  
-  [Check out the Versioning Feature](https://github.com/nisabmohd/Aria-Docs/tree/version_docs)
-
-- **i18n Support Version (NEW):** Designed for international audiences, this version will offer comprehensive multilingual support.  
-  [Preview the i18n Support](https://github.com/nisabmohd/Aria-Docs/tree/i18n-support)
-
-### Quick Start
-
-You can create a new Ariadocs project using the command:
-
-```plaintext
-npx create-aria-doc <project-directory>
-```
-
-### Expected Output
-
-When you run the CLI, you can expect an output similar to this:
-
-```
-Creating a new Ariadocs project in /path/to/your/project from the master branch...
-Cloning Master (Full Documentation)...
-Ariadocs project successfully created in /path/to/your/project!
-
-Next steps:
-1. Navigate to your project directory:
-   cd <project-directory>
-2. Install dependencies:
-   // To support React 19, package maintainers will need to test and update their packages to include React 19 as a peer dependency. This is already in progress.
-   npm install --force 
-3. Start the development server:
+1. Fork the repository to your GitHub account
+2. Clone your forked repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/documentation.git
+   cd documentation
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
    npm run dev
-```
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the documentation.
 
-## Getting Started
+### Making Changes
 
-First, run the development server:
+1. Create a new branch for your changes:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-```plaintext
+2. Make your changes to the documentation. The content is organized as follows:
+   - `/contents/docs/` - Main documentation content in MDX format
+   - `/contents/blogs/` - Blog posts and announcements
+
+3. Preview your changes locally by running the development server.
+
+### Documentation Standards
+
+- Use clear, concise language
+- Follow the existing document structure and formatting
+- Include code examples where appropriate
+- Add descriptive links to reference materials
+- Ensure your content is technically accurate
+
+### Submitting a Pull Request
+
+1. Commit your changes with a clear message:
+   ```bash
+   git commit -m "docs: improve explanation of network configuration"
+   ```
+
+2. Push your changes to your forked repository:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+3. Go to the [original repository](https://github.com/HashkeyHSK/documentation) and create a pull request.
+
+4. In your pull request:
+   - Provide a clear title and description
+   - Reference any related issues
+   - Explain what your changes accomplish
+
+### Review Process
+
+After submitting a pull request:
+
+1. Maintainers will review your contribution
+2. They may suggest changes or improvements
+3. Once approved, your contribution will be merged
+4. Your name will be added to the contributors list
+
+## Local Development
+
+```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
+## Deployment
 
-## Deploy on Vercel
+The documentation is automatically deployed using Vercel when changes are merged to the main branch.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This documentation is licensed under [LICENSE_TYPE]. See the LICENSE file for details.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nisabmohd/Aria-Docs)
+---
 
-## Key Features
-
-| **Feature**                   | **Description**                                          |
-|-------------------------------|----------------------------------------------------------|
-| MDX Support                   | Write interactive documentation with MDX.                |
-| Nested Pages                  | Organize content in a nested, hierarchical structure.    |
-| Blog Section                  | Include a dedicated blog section.                        |
-| Table of Contents             | Auto-generated TOC for easy navigation.                  |
-| Pagination                    | Split content across multiple pages.                     |
-| Syntax Highlighting           | Highlight code for better readability.                   |
-| Code Line Highlighting & Titles | Highlight specific lines with descriptive titles.      |
-| Interactive Code Blocks       | Language-specific and interactive code display.          |
-| Custom Components             | Embed custom, reusable components in your docs.          |
-| Light & Dark Mode             | Toggle between light and dark themes.                    |
-| Search Functionality          | Quickly find content with Algolia DocsSearch.             |
-| Code Switcher                 | Switch between code languages or variations.             |
-| Code Copy                     | Copy code blocks with a single click.                    |
-| TOC Observer Highlight        | Highlight active sections in the TOC as you scroll.      |
-| Static Site Generation        | Generate a static, high-performance site.                |
-| SEO-Optimized                 | Structured for optimal search engine indexing.           |
-| Internationalisation (New)             | Added support for i18n for multiple languages |
-
+Thank you for contributing to HashKey Chain documentation and helping make blockchain technology more accessible to everyone!
