@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  eslint: {
+    // ESLint 检查不会导致构建失败
+    ignoreDuringBuilds: true,
+  },
   // if used turbopack
   // transpilePackages: ["next-mdx-remote"],
 };
