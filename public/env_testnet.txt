@@ -1,0 +1,36 @@
+# geth image
+GETH_IMAGE=us-docker.pkg.dev/oplabs-tools-artifacts/images/op-geth:v1.101500.1
+# l1 rpc url
+# node image
+NODE_IMAGE=us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node:v1.11.2
+L1_RPC=https://ethereum-sepolia-rpc.publicnode.com
+# l1 rpc kind(standard/basic/quicknode/alchemy/erigon)
+# https://docs.optimism.io/builders/node-operators/tutorials/node-from-docker
+L1_RPC_KIND=standard
+# node libp2p bootnodes
+P2P_STATIC="/dns/testnet-mux2-aws.altlayer.network/tcp/30515/p2p/16Uiu2HAmUSM5U3LBW6DfFRV6g1JHZ5un27XcCTkDB69MzksmyMTh,/dns/testnet-mux2-aws.altlayer.network/tcp/31604/p2p/16Uiu2HAmSTbcZKAk3y11HGdVJuvWQD6de6Y6JJ5Cbx4GqdaQRjt4"
+# rollup config file url link
+ROLLUP_CONFIG_URL="https://operator-public.s3.us-west-2.amazonaws.com/hashkeychain/testnet/rollup.json"
+# tx forward endpoint
+SEQUENCER_HTTP=http://hashkeychain-testnet.alt.technology/
+# op-l2 geth bootnodes
+GETH_STATICNODES='[
+    "enode://43b4bce4f2234d735a39224b1dabb4fe17e852a442cfa5eb0e616c070593b87e5c75d25176064ad616224b45b726749ece551e7cecc00405891b38842e5ff29c@testnet-mux2-aws.altlayer.network:30495",
+    "enode://ff7dabb4344bfbd58e04356ef89d3ba5bd9e727257995edd1ac66518feb6090cd1394064fea4404ba6d1698d44f2cdec766bc92568f432a1fee4842769227386@testnet-mux2-aws.altlayer.network:30803"
+]'
+# genesis file url link
+GENESIS_URL="https://operator-public.s3.us-west-2.amazonaws.com/hashkeychain/testnet/genesis.json"
+# sync mode(full or snap)
+SYNC_MODE=full
+# gc mode(archive or full)
+GC_MODE=archive
+# geth http api
+HTTP_API="web3,eth,net,engine"
+# geth ws api
+WS_API="web3,eth,net,engine"
+# plasma enabled(true or false)
+PLASMA_ENABLED=false
+# plasma da server url
+PLASMA_DA_SERVER=
+# beacon url
+L1_BEACON="<BEACON_URL>"
