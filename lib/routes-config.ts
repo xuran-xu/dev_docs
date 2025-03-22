@@ -28,7 +28,7 @@ export const ROUTES: EachRoute[] = [
     noLink: true,
     isSeparator: true, 
     items: [
-      { title: "Network Infos", href: "/network-info" },
+      { title: "Network Info", href: "/network-info" },
       { title: "Tools", href: "/Tools", noLink: true,
         items: [
           { title: "Explorer", href: "/Explorer" },
