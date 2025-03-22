@@ -20,10 +20,9 @@ const monoFont = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AriaDocs - Template",
-  metadataBase: new URL("https://ariadocs.vercel.app/"),
+  title: "HashKey Docs",
   description:
-    "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.",
+    "This is the official documentation for HashKey Chain. Developer documentation for HashKey Chain. Developer documentation for Ethereum-compatible chains.",
 };
 
 export default function RootLayout({
