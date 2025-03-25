@@ -32,9 +32,9 @@ export const NAVLINKS = [
 ];
 
 const algolia_props = {
-  appId: process.env.ALGOLIA_APP_ID!,
-  indexName: process.env.ALGOLIA_INDEX!,
-  apiKey: process.env.ALGOLIA_SEARCH_API_KEY!,
+  appId: "MMABAWTC8X",
+  indexName: "documentation_1oqt_vercel_app_mmabawtc8x_pages",
+  apiKey: "f7c14b7d99911c09251753955c0b8876",
 };
 
 export function Navbar() {
