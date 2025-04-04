@@ -38,6 +38,7 @@ export const ROUTES: EachRoute[] = [
           { title: "Oracle", href: "/Oracle" },
           { title: "Bridges", href: "/Bridges" },
           { title: "KYC", href: "/KYC" },
+          { title: "Subgraph", href: "/Subgraph" },
         ],
       },
       { title: "Fee", href: "/Fee" },
