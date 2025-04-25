@@ -31,6 +31,7 @@ import {
 } from "@/components/ui/table";
 import { WalletConnect } from "@/components/wallet-connect";
 import { WalletConnectionPanel } from "@/components/wallet-connection-panel";
+import Knowledge from "@/components/markdown/Knowledge";
 
 // add custom components
 const components = {
@@ -46,6 +47,7 @@ const components = {
   a: Link,
   Outlet,
   Files,
+  Knowledge,
   table: Table,
   thead: TableHeader,
   th: TableHead,

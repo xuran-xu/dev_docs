@@ -29,6 +29,7 @@ export const ROUTES: EachRoute[] = [
     isSeparator: true, 
     items: [
       { title: "Network Info", href: "/network-info" },
+      { title: "Knowledge Base", href: "/knowledge" },
       { title: "Tools", href: "/Tools", noLink: true,
         items: [
           { title: "Explorer", href: "/Explorer" },
@@ -43,6 +44,18 @@ export const ROUTES: EachRoute[] = [
       },
       { title: "Fee", href: "/Fee" },
       { title: "RPC & Node Provider", href: "/RPC-Node-Provider" },
+    ],
+  },{
+    title: "Knowledge",
+    href: "/Knowledge",
+    isSeparator: true,
+    items: [
+      { title: "RPC", href: "/RPC" },
+      // { title: "Patricia Trie", href: "/patricia-trie" },
+      // { title: "zk-SNARK", href: "/zk-snark" },
+      // { title: "Reentrancy Attack", href: "/reentrancy-attack" },
+      // { title: "Rollups", href: "/rollups" },
+      // { title: "Blockchain", href: "/blockchain" },
     ],
   },
   {
