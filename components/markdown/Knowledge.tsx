@@ -37,34 +37,144 @@ const KnowledgeCard: FC<KnowledgeCardProps> = ({ title, description, href }) => 
 const knowledgeItems = [
   {
     title: 'RPC',
-    description: 'Remote Procedure Call, a protocol that allows programs to request services from other computers without understanding network details.',
+    description: 'Protocol allowing programs to request services from other computers without understanding network details.',
     href: '/docs/Knowledge/RPC',
   },
-  // {
-  //   title: 'Patricia Trie',
-  //   description: 'A data structure used in Ethereum to efficiently store key-value pairs and maintain the state of the blockchain.',
-  //   href: '/docs/Knowledge/patricia-trie',
-  // },
-  // {
-  //   title: 'zk-SNARK',
-  //   description: 'Zero-Knowledge Succinct Non-Interactive Argument of Knowledge, a cryptographic method to prove knowledge without revealing the information.',
-  //   href: '/docs/Knowledge/zk-snark',
-  // },
-  // {
-  //   title: 'Reentrancy Attack',
-  //   description: 'A smart contract vulnerability where an attacker repeatedly calls a function that withdraws funds before the contract can update its state.',
-  //   href: '/docs/Knowledge/reentrancy-attack',
-  // },
-  // {
-  //   title: 'Rollups',
-  //   description: 'Layer 2 scaling solutions that execute transactions off-chain but store transaction data on the main blockchain.',
-  //   href: '/docs/Knowledge/rollups',
-  // },
-  // {
-  //   title: 'Blockchain',
-  //   description: 'A distributed, immutable, and transparent digital ledger that records transactions across many computers.',
-  //   href: '/docs/Knowledge/blockchain',
-  // },
+  {
+    title: 'RISC-V',
+    description: 'Open standard instruction set architecture based on reduced instruction set principles.',
+    href: '/docs/Knowledge/risc-v',
+  },
+  {
+    title: 'Patricia Trie',
+    description: 'Efficient data structure for storing key-value pairs in blockchain state.',
+    href: '/docs/Knowledge/Patricia-Trie',
+  },
+  {
+    title: 'Merkle Tree',
+    description: 'Cryptographic data structure enabling efficient data verification in blockchains.',
+    href: '/docs/Knowledge/merkle-tree',
+  },
+  {
+    title: 'ZK Proofs',
+    description: 'Cryptographic methods allowing proof of knowledge without revealing actual information.',
+    href: '/docs/Knowledge/zk-proofs',
+  },
+  {
+    title: 'PoW',
+    description: 'Consensus mechanism requiring computational work to validate transactions and create blocks.',
+    href: '/docs/Knowledge/pow',
+  },
+  {
+    title: 'Layer 2',
+    description: 'Scaling solutions built on top of Layer 1 blockchains to improve throughput.',
+    href: '/docs/Knowledge/layer-2',
+  },
+  {
+    title: 'Layer 1',
+    description: 'Base blockchain protocols providing security and consensus for decentralized networks.',
+    href: '/docs/Knowledge/layer-1',
+  },
+  {
+    title: 'Blockchain',
+    description: 'Distributed ledger technology maintaining transaction records across multiple computers.',
+    href: '/docs/Knowledge/blockchain',
+  },
+  {
+    title: 'Rollups',
+    description: 'Layer 2 solutions executing transactions off-chain while storing data on-chain.',
+    href: '/docs/Knowledge/rollups',
+  },
+  {
+    title: 'ZK-STARK',
+    description: 'Zero-knowledge proof system with transparent setup and quantum resistance.',
+    href: '/docs/Knowledge/zk-stark',
+  },
+  {
+    title: 'Ethereum Merge',
+    description: 'Transition from Proof-of-Work to Proof-of-Stake consensus in Ethereum.',
+    href: '/docs/Knowledge/ethereum-merge',
+  },
+  {
+    title: 'Cryptography',
+    description: 'Mathematical techniques for securing information and communications in blockchain systems.',
+    href: '/docs/Knowledge/cryptography',
+  },
+  {
+    title: 'Cross-Chain Bridge',
+    description: 'Infrastructure enabling asset transfers between different blockchain networks.',
+    href: '/docs/Knowledge/Cross-Chain-Bridge',
+  },
+  {
+    title: 'Bitcoin and Blockchain',
+    description: 'The original cryptocurrency and its underlying technology, revolutionizing digital finance.',
+    href: '/docs/Learn/Bitcoin and Blockchain',
+  },
+  {
+    title: 'Smart Contracts',
+    description: 'Self-executing digital agreements with terms directly written into code.',
+    href: '/docs/Knowledge/smart-contracts',
+  },
+  {
+    title: 'EVM',
+    description: 'Ethereum Virtual Machine that executes smart contracts in the Ethereum network.',
+    href: '/docs/Knowledge/evm',
+  },
+  {
+    title: 'Gas',
+    description: 'Unit measuring computational effort required to execute operations on Ethereum.',
+    href: '/docs/Knowledge/gas',
+  },
+  {
+    title: 'DeFi',
+    description: 'Decentralized Finance applications offering financial services without traditional intermediaries.',
+    href: '/docs/Knowledge/defi',
+  },
+  {
+    title: 'DAO',
+    description: 'Decentralized Autonomous Organization governed by code and community voting.',
+    href: '/docs/Knowledge/dao',
+  },
+  {
+    title: 'Web3',
+    description: 'Next generation of internet built on decentralized protocols and blockchain technology.',
+    href: '/docs/Knowledge/web3',
+  },
+  {
+    title: 'NFT',
+    description: 'Non-Fungible Token representing unique digital assets with provable ownership.',
+    href: '/docs/Knowledge/nft',
+  },
+  {
+    title: 'Ethereum',
+    description: 'Blockchain platform enabling smart contracts and decentralized applications.',
+    href: '/docs/Learn/Ethereum More/Introduction',
+  },
+  {
+    title: 'DPoS',
+    description: 'Delegated Proof of Stake consensus where token holders elect validators to secure the network.',
+    href: '/docs/Knowledge/dpos',
+  },
+  {
+    title: 'PoA',
+    description: 'Proof of Authority consensus relying on approved validators with known identities.',
+    href: '/docs/Knowledge/poa',
+  },
+  {
+    title: 'Optimistic Rollups',
+    description: 'Layer 2 scaling solution assuming transactions are valid by default with fraud proof security.',
+    href: '/docs/Knowledge/optimistic-rollups',
+  },
+  {
+    title: 'ZK Rollups',
+    description: 'Layer 2 scaling solution using zero-knowledge proofs to verify transaction validity.',
+    href: '/docs/Knowledge/zk-rollups',
+  },
+  {
+    title: 'ERC-20',
+    description: 'Token standard for fungible tokens on Ethereum, enabling interoperability across applications.',
+    href: '/docs/Knowledge/erc20',
+  },
 ];
 
 const Knowledge = () => {
