@@ -91,6 +91,31 @@ const knowledgeItems = [
     href: '/docs/Knowledge/zk-stark',
   },
   {
+    title: 'Reentrancy Attack',
+    description: 'Smart contract vulnerability where malicious code repeatedly calls back into the original contract.',
+    href: '/docs/Knowledge/Reentrancy-Attack',
+  },
+  {
+    title: 'ZK-SNARK',
+    description: 'Zero-knowledge proof system allowing verification without revealing underlying data.',
+    href: '/docs/Knowledge/zk-snark',
+  },
+  {
+    title: 'Gas Optimization',
+    description: 'Techniques to reduce computational costs of executing transactions on Ethereum-compatible networks.',
+    href: '/docs/Knowledge/Gas-optimization',
+  },
+  {
+    title: 'PoS',
+    description: 'Proof of Stake consensus where validators are selected based on their cryptocurrency holdings.',
+    href: '/docs/Knowledge/pos',
+  },
+  {
+    title: '51% Attack',
+    description: 'Attack scenario where a single entity controls majority of network\'s mining/validation power.',
+    href: '/docs/Knowledge/51-percent-attack',
+  },
+  {
     title: 'Ethereum Merge',
     description: 'Transition from Proof-of-Work to Proof-of-Stake consensus in Ethereum.',
     href: '/docs/Knowledge/ethereum-merge',
@@ -136,9 +161,9 @@ const knowledgeItems = [
     href: '/docs/Knowledge/dao',
   },
   {
-    title: 'Web3',
-    description: 'Next generation of internet built on decentralized protocols and blockchain technology.',
-    href: '/docs/Knowledge/web3',
+    title: 'ENS',
+    description: 'Ethereum Name Service mapping human-readable names to blockchain addresses and resources.',
+    href: '/docs/Knowledge/ens',
   },
   {
     title: 'NFT',
@@ -174,6 +199,26 @@ const knowledgeItems = [
     title: 'ERC-20',
     description: 'Token standard for fungible tokens on Ethereum, enabling interoperability across applications.',
     href: '/docs/Knowledge/erc20',
+  },
+  {
+    title: 'Blockchain Explorers',
+    description: 'Web interfaces for viewing and analyzing blockchain transactions, addresses, and statistics.',
+    href: '/docs/Learn/Ethereum More/Explorer & Wallet',
+  },
+  {
+    title: 'Gas Fee Calculation',
+    description: 'Understanding how transaction fees are determined on Ethereum and Layer 2 solutions.',
+    href: '/docs/Learn/Ethereum More/Gas Fee Calculation',
+  },
+  {
+    title: 'Ethereum Applications',
+    description: 'Overview of decentralized applications built on Ethereum across various sectors.',
+    href: '/docs/Learn/Ethereum More/Ethereum Applications',
+  },
+  {
+    title: 'Ethereum Development',
+    description: 'Technical foundation and tools for building on the Ethereum ecosystem.',
+    href: '/docs/Learn/Ethereum More/Ethereum Dev',
   },
 ];
 
