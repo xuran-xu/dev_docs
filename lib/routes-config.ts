@@ -46,17 +46,35 @@ export const ROUTES: EachRoute[] = [
       { title: "RPC & Node Provider", href: "/RPC-Node-Provider" },
     ],
   },{
-    title: "Knowledge",
-    href: "/Knowledge",
+    title: "Learn",
+    href: "/Learn",
+    noLink: true,
     isSeparator: true,
     items: [
-      { title: "RPC", href: "/RPC" },
+      { title: "Welcome", href: "/Welcome" },
+      { title: "Bitcoin-and-Blockchain", href: "/Bitcoin-and-Blockchain" },
+      { title: "Ethereum-More", href: "/Ethereum-More", noLink: true,
+        items: [
+          { title: "Introduction", href: "/Introduction" },
+          { title: "Ethereum-Technology", href: "/Ethereum-Technology" },
+          { title: "Ethereum-Applications", href: "/Ethereum-Applications" },
+          { title: "Gas-Fee-Calculation", href: "/Gas-Fee-Calculation" },
+          { title: "Explorer-Wallet", href: "/Explorer-Wallet" },
+        ]
+      },
+    
+    
       // { title: "Patricia Trie", href: "/patricia-trie" },
       // { title: "zk-SNARK", href: "/zk-snark" },
       // { title: "Reentrancy Attack", href: "/reentrancy-attack" },
       // { title: "Rollups", href: "/rollups" },
       // { title: "Blockchain", href: "/blockchain" },
     ],
+  },
+  {
+    title: "Glossary",
+    href: "/Glossary",
+    isSeparator: true,
   },
   {
     title: "Feedback",
