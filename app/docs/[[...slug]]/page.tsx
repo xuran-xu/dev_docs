@@ -19,6 +19,9 @@ export default async function DocsPage(props: PageProps) {
   const res = await getDocsForSlug(pathName);
 
   if (!res) notFound();
+
+  const isKnowledgeIndexPage = pathName === 'knowledge';
+
   return (
     <div className="flex items-start gap-10">
       <div className="flex-[4.5] py-10">
@@ -34,7 +37,7 @@ export default async function DocsPage(props: PageProps) {
           <Pagination pathname={pathName} />
         </Typography>
       </div>
-      <Toc path={pathName} />
+      {!isKnowledgeIndexPage && <Toc path={pathName} />}
     </div>
   );
 }
