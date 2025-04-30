@@ -38,197 +38,206 @@ const knowledgeItems = [
   {
     title: 'RPC',
     description: 'Protocol allowing programs to request services from other computers without understanding network details.',
-    href: '/docs/Knowledge/RPC',
+    href: '/Knowledge/RPC',
   },
   {
     title: 'RISC-V',
     description: 'Open standard instruction set architecture based on reduced instruction set principles.',
-    href: '/docs/Knowledge/risc-v',
+    href: '/Knowledge/risc-v',
   },
   {
     title: 'Patricia Trie',
     description: 'Efficient data structure for storing key-value pairs in blockchain state.',
-    href: '/docs/Knowledge/Patricia-Trie',
+    href: '/Knowledge/Patricia-Trie',
   },
   {
     title: 'Merkle Tree',
     description: 'Cryptographic data structure enabling efficient data verification in blockchains.',
-    href: '/docs/Knowledge/merkle-tree',
+    href: '/Knowledge/merkle-tree',
   },
   {
     title: 'ZK Proofs',
     description: 'Cryptographic methods allowing proof of knowledge without revealing actual information.',
-    href: '/docs/Knowledge/zk-proofs',
+    href: '/Knowledge/zk-proofs',
   },
   {
     title: 'PoW',
     description: 'Consensus mechanism requiring computational work to validate transactions and create blocks.',
-    href: '/docs/Knowledge/pow',
+    href: '/Knowledge/pow',
   },
   {
     title: 'Layer 2',
     description: 'Scaling solutions built on top of Layer 1 blockchains to improve throughput.',
-    href: '/docs/Knowledge/layer-2',
+    href: '/Knowledge/layer-2',
   },
   {
     title: 'Layer 1',
     description: 'Base blockchain protocols providing security and consensus for decentralized networks.',
-    href: '/docs/Knowledge/layer-1',
+    href: '/Knowledge/layer-1',
   },
   {
     title: 'Blockchain',
     description: 'Distributed ledger technology maintaining transaction records across multiple computers.',
-    href: '/docs/Knowledge/blockchain',
+    href: '/Knowledge/blockchain',
   },
   {
     title: 'Rollups',
     description: 'Layer 2 solutions executing transactions off-chain while storing data on-chain.',
-    href: '/docs/Knowledge/rollups',
+    href: '/Knowledge/rollups',
   },
   {
     title: 'ZK-STARK',
     description: 'Zero-knowledge proof system with transparent setup and quantum resistance.',
-    href: '/docs/Knowledge/zk-stark',
+    href: '/Knowledge/zk-stark',
   },
   {
     title: 'Reentrancy Attack',
     description: 'Smart contract vulnerability where malicious code repeatedly calls back into the original contract.',
-    href: '/docs/Knowledge/Reentrancy-Attack',
+    href: '/Knowledge/Reentrancy-Attack',
   },
   {
     title: 'ZK-SNARK',
     description: 'Zero-knowledge proof system allowing verification without revealing underlying data.',
-    href: '/docs/Knowledge/zk-snark',
+    href: '/Knowledge/zk-snark',
   },
   {
     title: 'Gas Optimization',
     description: 'Techniques to reduce computational costs of executing transactions on Ethereum-compatible networks.',
-    href: '/docs/Knowledge/Gas-optimization',
+    href: '/Knowledge/Gas-optimization',
   },
   {
     title: 'PoS',
     description: 'Proof of Stake consensus where validators are selected based on their cryptocurrency holdings.',
-    href: '/docs/Knowledge/pos',
+    href: '/Knowledge/pos',
   },
   {
     title: '51% Attack',
     description: 'Attack scenario where a single entity controls majority of network\'s mining/validation power.',
-    href: '/docs/Knowledge/51-percent-attack',
+    href: '/Knowledge/51-percent-attack',
   },
   {
     title: 'Ethereum Merge',
     description: 'Transition from Proof-of-Work to Proof-of-Stake consensus in Ethereum.',
-    href: '/docs/Knowledge/ethereum-merge',
+    href: '/Knowledge/ethereum-merge',
   },
   {
     title: 'Cryptography',
     description: 'Mathematical techniques for securing information and communications in blockchain systems.',
-    href: '/docs/Knowledge/cryptography',
+    href: '/Knowledge/cryptography',
   },
   {
     title: 'Cross-Chain Bridge',
     description: 'Infrastructure enabling asset transfers between different blockchain networks.',
-    href: '/docs/Knowledge/Cross-Chain-Bridge',
+    href: '/Knowledge/Cross-Chain-Bridge',
   },
   {
     title: 'Bitcoin and Blockchain',
     description: 'The original cryptocurrency and its underlying technology, revolutionizing digital finance.',
-    href: '/docs/Learn/Bitcoin and Blockchain',
+    href: '/Knowledge/Bitcoin-and-Blockchain-knowledge',
   },
   {
     title: 'Smart Contracts',
     description: 'Self-executing digital agreements with terms directly written into code.',
-    href: '/docs/Knowledge/smart-contracts',
+    href: '/Knowledge/smart-contracts',
   },
   {
     title: 'EVM',
     description: 'Ethereum Virtual Machine that executes smart contracts in the Ethereum network.',
-    href: '/docs/Knowledge/evm',
+    href: '/Knowledge/evm',
   },
   {
     title: 'Gas',
     description: 'Unit measuring computational effort required to execute operations on Ethereum.',
-    href: '/docs/Knowledge/gas',
+    href: '/Knowledge/gas',
   },
   {
     title: 'DeFi',
     description: 'Decentralized Finance applications offering financial services without traditional intermediaries.',
-    href: '/docs/Knowledge/defi',
+    href: '/Knowledge/defi',
   },
   {
     title: 'DAO',
     description: 'Decentralized Autonomous Organization governed by code and community voting.',
-    href: '/docs/Knowledge/dao',
+    href: '/Knowledge/dao',
   },
   {
     title: 'ENS',
     description: 'Ethereum Name Service mapping human-readable names to blockchain addresses and resources.',
-    href: '/docs/Knowledge/ens',
+    href: '/Knowledge/ens',
   },
   {
     title: 'NFT',
     description: 'Non-Fungible Token representing unique digital assets with provable ownership.',
-    href: '/docs/Knowledge/nft',
+    href: '/Knowledge/nft',
   },
   {
     title: 'Ethereum',
     description: 'Blockchain platform enabling smart contracts and decentralized applications.',
-    href: '/docs/Learn/Ethereum More/Introduction',
+    href: '/Learn/Ethereum-More/Introduction',
   },
   {
     title: 'DPoS',
     description: 'Delegated Proof of Stake consensus where token holders elect validators to secure the network.',
-    href: '/docs/Knowledge/dpos',
+    href: '/Knowledge/dpos',
   },
   {
     title: 'PoA',
     description: 'Proof of Authority consensus relying on approved validators with known identities.',
-    href: '/docs/Knowledge/poa',
+    href: '/Knowledge/poa',
   },
   {
     title: 'Optimistic Rollups',
     description: 'Layer 2 scaling solution assuming transactions are valid by default with fraud proof security.',
-    href: '/docs/Knowledge/optimistic-rollups',
+    href: '/Knowledge/optimistic-rollups',
   },
   {
     title: 'ZK Rollups',
     description: 'Layer 2 scaling solution using zero-knowledge proofs to verify transaction validity.',
-    href: '/docs/Knowledge/zk-rollups',
+    href: '/Knowledge/zk-rollups',
   },
   {
     title: 'ERC-20',
     description: 'Token standard for fungible tokens on Ethereum, enabling interoperability across applications.',
-    href: '/docs/Knowledge/erc20',
+    href: '/Knowledge/erc20',
   },
   {
     title: 'Blockchain Explorers',
     description: 'Web interfaces for viewing and analyzing blockchain transactions, addresses, and statistics.',
-    href: '/docs/Learn/Ethereum More/Explorer & Wallet',
+    href: '/Learn/Ethereum-More/Explorer-Wallet',
   },
   {
     title: 'Gas Fee Calculation',
     description: 'Understanding how transaction fees are determined on Ethereum and Layer 2 solutions.',
-    href: '/docs/Learn/Ethereum More/Gas Fee Calculation',
+    href: '/Learn/Ethereum-More/Gas-Fee-Calculation',
   },
   {
     title: 'Ethereum Applications',
     description: 'Overview of decentralized applications built on Ethereum across various sectors.',
-    href: '/docs/Learn/Ethereum More/Ethereum Applications',
+    href: '/Learn/Ethereum-More/Ethereum-Applications',
   },
   {
     title: 'Ethereum Development',
     description: 'Technical foundation and tools for building on the Ethereum ecosystem.',
-    href: '/docs/Learn/Ethereum More/Ethereum Dev',
+    href: '/Learn/Ethereum-More/Ethereum-Dev',
   },
 ];
 
 const Knowledge = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const router = useRouter();
 
   const filteredItems = knowledgeItems.filter(item => 
     item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     item.description.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  const handleNavigate = (href: string) => {
+    if (href.startsWith('http') || !href.startsWith('/Knowledge/')) {
+      router.push(`/docs${href}`);
+    } else {
+      router.push(`/docs${href}`);
+    }
+  };
 
   return (
     <div className="w-full">
@@ -256,7 +265,7 @@ const Knowledge = () => {
               key={index}
               title={item.title}
               description={item.description}
-              href={item.href}
+              href={`/docs${item.href}`}
             />
           ))}
         </div>

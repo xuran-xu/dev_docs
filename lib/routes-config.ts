@@ -62,19 +62,15 @@ export const ROUTES: EachRoute[] = [
           { title: "Explorer-Wallet", href: "/Explorer-Wallet" },
         ]
       },
-    
-    
-      // { title: "Patricia Trie", href: "/patricia-trie" },
-      // { title: "zk-SNARK", href: "/zk-snark" },
-      // { title: "Reentrancy Attack", href: "/reentrancy-attack" },
-      // { title: "Rollups", href: "/rollups" },
-      // { title: "Blockchain", href: "/blockchain" },
     ],
   },
   {
-    title: "Glossary",
-    href: "/Glossary",
-    isSeparator: true,
+    title: "Knowledge",
+    href: "/Knowledge",
+    items: [ 
+      { title: '51% Attack', href: '/51-percent-attack' },
+      { title: 'ZK-STARK', href: '/zk-stark' },
+    ],
   },
   {
     title: "Feedback",
