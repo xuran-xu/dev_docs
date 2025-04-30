@@ -65,8 +65,8 @@ export const ROUTES: EachRoute[] = [
     ],
   },
   {
-    title: "Knowledge",
-    href: "/Knowledge",
+    title: "knowledge",
+    href: "/knowledge",
     items: [ 
       { title: '51% Attack', href: '/51-percent-attack' },
       { title: 'ZK-STARK', href: '/zk-stark' },
