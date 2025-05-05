@@ -101,8 +101,8 @@ const KnowledgeToc = () => {
             className={`block w-full text-left transition-colors duration-200 truncate 
               ${
                 isActive
-                  ? 'font-semibold text-purple-600 dark:text-purple-400' 
-                  : 'text-neutral-500 dark:text-neutral-400 hover:text-purple-600 dark:hover:text-purple-400'
+                  ? 'font-semibold text-[#3f2c5f] dark:text-white' 
+                  : 'text-neutral-500 dark:text-neutral-300 hover:text-[#3f2c5f] dark:hover:text-white'
               }
             `}
           >

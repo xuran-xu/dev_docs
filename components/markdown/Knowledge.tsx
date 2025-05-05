@@ -22,11 +22,11 @@ const KnowledgeCard: FC<KnowledgeCardProps> = ({ title, description, href, id })
     <div 
       id={id}
       onClick={() => router.push(href)}
-      className="group rounded-xl overflow-hidden bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 transition-all duration-300 hover:shadow-lg cursor-pointer scroll-mt-28"
+      className="group rounded-xl overflow-hidden bg-white dark:bg-neutral-900 border-0 dark:border dark:border-neutral-800 hover:shadow-md dark:hover:border-neutral-700 transition-all duration-300 hover:shadow-lg cursor-pointer scroll-mt-28"
     >
-      <div className="bg-gradient-to-r from-purple-500 to-purple-600 px-4">
+      <div className="bg-[#CBC3E3] dark:bg-gradient-to-r dark:from-[#2a173b] dark:to-[#3f2c5f] px-4">
         <div className="flex items-center space-x-2">
-          <p className="text-base font-medium text-white group-hover:translate-x-1 transition-transform duration-300">
+          <p className="text-base font-medium text-neutral-900 dark:text-white group-hover:translate-x-1 transition-transform duration-300">
             {title}
           </p>
         </div>
@@ -67,7 +67,7 @@ const Knowledge = () => {
               placeholder="Search knowledge..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-2 pl-10 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600 focus:border-transparent transition-all duration-200"
+              className="w-full px-4 py-2 pl-10 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7E5BEF] dark:focus:ring-[#3f2c5f] focus:border-transparent transition-all duration-200"
             />
             <Search className="absolute left-3 top-2.5 h-5 w-5 text-neutral-400" />
           </div>
