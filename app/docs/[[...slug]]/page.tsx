@@ -20,7 +20,7 @@ export default async function DocsPage(props: PageProps) {
 
   if (!res) notFound();
 
-  const isKnowledgeIndexPage = pathName === 'knowledge';
+  const isKnowledgePage = pathName === 'Knowledge' || pathName.startsWith('Knowledge/');
 
   return (
     <div className="flex items-start gap-10">
@@ -37,7 +37,7 @@ export default async function DocsPage(props: PageProps) {
           <Pagination pathname={pathName} />
         </Typography>
       </div>
-      {!isKnowledgeIndexPage && <Toc path={pathName} />}
+      {!isKnowledgePage && <Toc path={pathName} />}
     </div>
   );
 }
