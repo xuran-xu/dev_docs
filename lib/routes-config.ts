@@ -29,6 +29,7 @@ export const ROUTES: EachRoute[] = [
     isSeparator: true, 
     items: [
       { title: "Network Info", href: "/network-info" },
+      { title: "Knowledge Base", href: "/knowledge" },
       { title: "Tools", href: "/Tools", noLink: true,
         items: [
           { title: "Explorer", href: "/Explorer" },
@@ -44,6 +45,29 @@ export const ROUTES: EachRoute[] = [
       { title: "Fee", href: "/Fee" },
       { title: "RPC & Node Provider", href: "/RPC-Node-Provider" },
     ],
+  },{
+    title: "Learn",
+    href: "/Learn",
+    noLink: true,
+    isSeparator: true,
+    items: [
+      { title: "Welcome", href: "/Welcome" },
+      { title: "Bitcoin-and-Blockchain", href: "/Bitcoin-and-Blockchain" },
+      { title: "Ethereum-More", href: "/Ethereum-More", noLink: true,
+        items: [
+          { title: "Introduction", href: "/Introduction" },
+          { title: "Ethereum-Technology", href: "/Ethereum-Technology" },
+          { title: "Ethereum-Applications", href: "/Ethereum-Applications" },
+          { title: "Gas-Fee-Calculation", href: "/Gas-Fee-Calculation" },
+          { title: "Explorer-Wallet", href: "/Explorer-Wallet" },
+        ]
+      },
+    ],
+  },
+  {
+    title: "knowledge",
+    href: "/knowledge",
+    
   },
   {
     title: "Feedback",
