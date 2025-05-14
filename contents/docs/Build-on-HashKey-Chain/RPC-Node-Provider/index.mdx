@@ -113,27 +113,27 @@ Create a `.env` file with the following content for HashKey Chain Testnet, repla
 
 ```bash
 # geth image
-GETH_IMAGE=us-docker.pkg.dev/oplabs-tools-artifacts/images/op-geth:v1.101503.1
+GETH_IMAGE=us-docker.pkg.dev/oplabs-tools-artifacts/images/op-geth:v1.101503.4
 # l1 rpc url
 # node image
-NODE_IMAGE=us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node:v1.12.2
+NODE_IMAGE=us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node:v1.13.2
 L1_RPC=https://ethereum-sepolia-rpc.publicnode.com
 # l1 rpc kind(standard/basic/quicknode/alchemy/erigon)
 # https://docs.optimism.io/builders/node-operators/tutorials/node-from-docker
 L1_RPC_KIND=standard
 # node libp2p bootnodes
-P2P_STATIC="/dns/testnet-mux2-aws.altlayer.network/tcp/30515/p2p/16Uiu2HAmUSM5U3LBW6DfFRV6g1JHZ5un27XcCTkDB69MzksmyMTh,/dns/testnet-mux2-aws.altlayer.network/tcp/31604/p2p/16Uiu2HAmSTbcZKAk3y11HGdVJuvWQD6de6Y6JJ5Cbx4GqdaQRjt4"
+P2P_STATIC='/dns/testnet-bootnodes.hsk.xyz/tcp/31301/p2p/16Uiu2HAm2tAbwcFYMnXNvVmhacKbE1gz1oMbdrxpUNEUrTBp1fvZ,/dns/testnet-bootnodes.hsk.xyz/tcp/32343/p2p/16Uiu2HAmDKkBkmQNBRe1yXZPtRkJUWmafLgmj6Y84w2AUa3Qgp6N'
 # rollup config file url link
-ROLLUP_CONFIG_URL="https://operator-public.s3.us-west-2.amazonaws.com/hashkeychain/testnet/rollup.json"
+ROLLUP_CONFIG_URL="https://hashkeychain.s3.ap-southeast-1.amazonaws.com/testnet/genesis.json"
 # tx forward endpoint
-SEQUENCER_HTTP=http://hashkeychain-testnet.alt.technology/
+SEQUENCER_HTTP=https://testnet.hsk.xyz
 # op-l2 geth bootnodes
 GETH_STATICNODES='[
-    "enode://43b4bce4f2234d735a39224b1dabb4fe17e852a442cfa5eb0e616c070593b87e5c75d25176064ad616224b45b726749ece551e7cecc00405891b38842e5ff29c@testnet-mux2-aws.altlayer.network:30495",
-    "enode://ff7dabb4344bfbd58e04356ef89d3ba5bd9e727257995edd1ac66518feb6090cd1394064fea4404ba6d1698d44f2cdec766bc92568f432a1fee4842769227386@testnet-mux2-aws.altlayer.network:30803"
+    "enode://f26759caecdec0ae9d04f523a4ae6a7c562e47f89289f9a520c56f97da9c64cf386441df7f2e992b153a66e8988dcbd3280064db700002e9c14140913004cc52@testnet-bootnodes.hsk.xyz:31289",
+    "enode://72c77ff6d8dac333d283ac2a2522452045bc292d156e4cb4c14d3ef804db77d0c11f7a0bacd507d7eaaa371a7b32cb47369c799620d245630ee137a58d19e893@testnet-bootnodes.hsk.xyz:30109"
 ]'
 # genesis file url link
-GENESIS_URL="https://operator-public.s3.us-west-2.amazonaws.com/hashkeychain/testnet/genesis.json"
+GENESIS_URL="https://hashkeychain.s3.ap-southeast-1.amazonaws.com/testnet/rollup.json"
 # sync mode(full or snap)
 SYNC_MODE=full
 # gc mode(archive or full)
